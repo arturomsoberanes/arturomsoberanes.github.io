@@ -7,12 +7,6 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
 }
-.footer {
-  background-color: #343434;
-}
-.footer svg{
-  font-size: 2rem;
-}
 .fondo {
   background: linear-gradient(to bottom, rgb(3 3 3 / 83%), rgb(23 23 23 / 58%)),url(../img/bg-1.jpg);
   height: 100vh;
@@ -48,6 +42,22 @@ body {
 .photo{
   max-width: 400px;
 }
+.footer {
+  background-color: #343434;
+}
+.footer svg{
+  font-size: 2rem;
+}
+/* Projects Page */
+.card-custom {
+  width: 20rem;
+  margin: 1em;
+}
+.btn-custom {
+  background-color: #343434;
+  color:#fe4747;
+}
+
 
 @keyframes init-animation {
   from {
