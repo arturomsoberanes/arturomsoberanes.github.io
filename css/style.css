@@ -57,7 +57,9 @@ body {
   background-color: #343434;
   color:#fe4747;
 }
-
+.color-red {
+  color:#fe4747;
+}
 
 @keyframes init-animation {
   from {
