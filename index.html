@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="UTF-8">
-    <title>Arturo Soberanes</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+    <title>Instalación Bootstrap 5</title>
   </head>
   <body>
-    <h1>Arturo Soberanes Portafolio</h1>
-    <h2>Portafolio</h2>
-    <p>Bienvenidos a mi portafolio</p>
-    <img src="./mi-foto.jpg" alt="Foto de Arturo Soberanes">
-    <a href="https://github.com/arturomsoberanes/PacMen_Factory">Repo</a>
-    <a href="https://arturomsoberanes.github.io/PacMen_Factory/">Repo</a>
+    <header class="fondo row">
+      <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+        <div class="container-xxl content_nav">
+          <a class="navbar-brand" href="#">Arturo Soberanes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      <div class="row align-content-center header-text">
+        <h1 class="text-white text-center txt-header">Arturo Soberanes</h1>
+        <h2 class="text-white text-center txt-header">Web Developer & UI Designer</h2>
+      </div>
+    </header>
+    <main class="container-lg mt-5">
+      <section class="video row text-center">
+        <h2 class="mb-5 fw-bold">- I am Arturo Soberanes -</h2>
+        <iframe width="560" height="560" src="https://www.youtube.com/embed/1kCVrGWmNnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section class="row text-center mt-5 big_font">
+        <h2 class="mb-5 fw-bold">- ¿Who i am? -</h2>
+        <p>
+        Hello! My name is Arturo Soberanes, I am a Web Developer and UI Designer.
+        </p>
+        <p>
+        I have been working as a freelance web developer for 2 years, I have worked with LMS (Moodle), with CMS (Wordpress) and using my skills as a developer I generate custom solutions.
+        </p>
+        <p>
+        For interface design I use Figma as the main tool.
+        </p>
+        <p>
+        I also like to develop web applications from scratch.
+        </p>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
