@@ -1,0 +1,74 @@
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration:none;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.fondo {
+  background: linear-gradient(to bottom, rgb(3 3 3 / 83%), rgb(23 23 23 / 58%)),url(../img/bg-1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.header-text {
+  height: 90%;
+  margin: 0;
+  animation-name: init-animation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+.header-text .txt-header:hover {
+  font-weight: bold;
+  transition:1s;
+}
+@media screen and (max-width:1400px){
+  .content_nav {
+    margin:1.2em;
+  }
+}
+@media screen and (min-width:1200px){
+  .big_font{
+    font-size: 1.4rem;
+  }
+}
+.section-technologies img {
+  max-width: 150px;
+  max-height: 120px;
+}
+.photo{
+  max-width: 400px;
+}
+.footer {
+  background-color: #343434;
+}
+.footer svg{
+  font-size: 2rem;
+}
+/* Projects Page */
+.card-custom {
+  width: 20rem;
+  margin: 1em;
+}
+.btn-custom {
+  background-color: #343434;
+  color:#fe4747;
+}
+.color-red {
+  color:#fe4747;
+}
+/* Contact Page */
+
+/* Animations */
+
+@keyframes init-animation {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
